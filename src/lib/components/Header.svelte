@@ -9,7 +9,7 @@
 	};
 </script>
 
-<header class="md:flex items-center justify-between">
+<header class="bg-gray p-8 md:flex items-center justify-between">
 	<div class="flex items-center justify-between">
 		<a href="/"> <img src={logo} alt="michelle's logo" /> </a>
 		<button on:click={toggleMenu} class="sm:hidden">

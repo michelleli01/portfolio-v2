@@ -1,11 +1,11 @@
 <footer
-	class="bg-beige text-gray-2 py-4 px-4 md:px-8 lg:px-40 flex justify-center md:justify-between items-center text-heading-3 font-serif"
+	class="bg-beige text-gray-2 p-8 flex justify-center md:justify-between items-center text-heading-3 font-serif"
 >
 	<div class="hidden md:flex md:flex-col">
 		<p>made with ❤️‍🔥 by</p>
 		<p>michelle li © 2023</p>
 	</div>
-	<div class="flex flex-col">
+	<div class="flex flex-col gap-2">
 		<p class="flex justify-center items-center">let's connect!</p>
 		<div class="flex gap-4">
 			<svg
