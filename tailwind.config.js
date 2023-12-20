@@ -20,7 +20,9 @@ export default {
 				gray: '#F9F8F6',
 				primary: '#305F27',
 				secondary: '#B2A38C',
-				accent: '#625035'
+				accent: '#625035',
+				beige: '#EAE7E2',
+				'gray-2': '#626262'
 			},
 			fontFamily: {
 				serif: ['EB Garamound', 'serif'],
