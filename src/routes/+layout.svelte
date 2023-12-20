@@ -8,4 +8,4 @@
 	<Header />
 	<slot />
 </section>
-<!-- <Footer /> -->
+<Footer />
