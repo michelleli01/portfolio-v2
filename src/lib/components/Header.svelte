@@ -1,6 +1,6 @@
 <script>
 	import logo from '$lib/assets/logo.svg';
-	import hamburger from '$lib/assets/hamburger.svg';
+	import hamburger from '$lib/assets/icons/hamburger.svg';
 
 	let showMenu = false;
 
@@ -24,16 +24,20 @@
 				: 'hidden'} md:flex md:flex-row md:gap-8"
 		>
 			<li>
-				<a href="/">blog</a>
+				<a href="/blog">blog</a>
 			</li>
 			<li>
-				<a href="/">work</a>
+				<a href="/#work">work</a>
 			</li>
 			<li>
-				<a href="/">about</a>
+				<a href="/about">about</a>
 			</li>
 			<li>
-				<a href="/">resume</a>
+				<a
+					target="_blank"
+					href="https://drive.google.com/file/d/1qbOu9RK86xYTpTR5VBESJH1afOY4CJfc/view?usp=sharing"
+					>resume</a
+				>
 			</li>
 		</ul>
 	</nav>

@@ -1,5 +1,5 @@
 <script>
-	import arrow_down from '$lib/assets/arrow_down.svg';
+	import arrow_down from '$lib/assets/icons/arrow_down.svg';
 </script>
 
 <section class="font-serif text-general flex-wrap mt-32 md:mt-28 lg:mt-10">
