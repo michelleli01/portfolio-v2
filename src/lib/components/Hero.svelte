@@ -30,4 +30,27 @@
 	<!-- <div class="flex justify-center items-center">
 		<img src={scroll_circle} alt="circle" />
 	</div> -->
+
+	<!-- <div class="w-[736px] h-[749px] justify-between items-center flex overflow-hidden">
+		<div class="w-[750px] h-[750px] bg-lime-900 bg-opacity-10 rounded-full"></div>
+		<div class="h-20 flex-col justify-start items-center inline-flex">
+			<div
+				class="w-40 text-center text-stone-900 text-xl font-medium font-['EB Garamond'] tracking-wider"
+			>
+				scroll for more
+			</div>
+			<div class="w-8 h-[54px] relative"></div>
+		</div>
+	</div> -->
+	<!-- <div class="w-[736px] h-[749px] justify-between items-center flex overflow-hidden">
+		<div class="w-[750px] h-[750px] bg-lime-900 bg-opacity-10 rounded-full"></div>
+		<div class="h-20 flex-col justify-start items-center inline-flex">
+			<div
+				class="w-40 text-center text-stone-900 text-xl font-medium font-['EB Garamond'] tracking-wider"
+			>
+				scroll for more
+			</div>
+			<div class="w-8 h-[54px] relative"></div>
+		</div>
+	</div> -->
 </section>
