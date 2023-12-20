@@ -2,7 +2,7 @@
 	import arrow_down from '$lib/assets/icons/arrow_down.svg';
 </script>
 
-<section class="font-serif text-general flex-wrap mt-32 md:mt-28 lg:mt-10">
+<section class="h-max-[100%] font-serif text-general flex-wrap mt-32 md:mt-28 lg:mt-10">
 	<div class="w-full mb-20 md:mb-36 lg:mb-40">
 		<h1 class="text-title font-semibold">
 			Hey, my name is <div class="text-primary">Michelle</div>
@@ -27,7 +27,7 @@
 		</div>
 	</div>
 	<div
-		class="flex flex-col justify-center items-center text-heading-4 tracking-widest mt-36 md:mt-16 lg:mt-10"
+		class="flex flex-col justify-center items-center text-heading-4 tracking-widest mt-36 md:mt-16 lg:mt-12 pb-6"
 	>
 		<p>scroll for more</p>
 		<img src={arrow_down} alt="down arrow" />
