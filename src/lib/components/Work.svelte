@@ -10,6 +10,7 @@
 	let projects: Project[] = [
 		{
 			title: 'Azure Infrastructure Services',
+			shortName: 'microsoft',
 			github: '',
 			company: 'microsoft',
 			role: ['software engineer intern'],
@@ -17,21 +18,23 @@
 			years: ['2022', '2023'],
 			skills: ['c#', 'f#', 'docker', 'azure', 'ci/cd pipline', 'agile workflow'],
 			image: microsoft_photos,
-			mobile_image: avs_page
+			mobileImg: avs_page
 		},
 		{
 			title: 'CU Reviews',
 			github: 'https://github.com/cornell-dti/course-reviews-react-2.0',
+			shortName: 'dti',
 			company: 'cornell dti',
 			role: ['technical project manager', 'developer'],
 			desc: 'A course review website used by over 5000+ students monthly',
 			years: ['2021', '2022'],
 			skills: ['reactjs', 'typescript', 'express', 'jest', 'mongodb'],
 			image: cu_reviews_photos,
-			mobile_image: cu_reviews_home_page
+			mobileImg: cu_reviews_home_page
 		},
 		{
 			title: 'Portfolio',
+			shortName: 'portfolio',
 			github: 'https://github.com/michelleli01/portfolio-v2',
 			company: 'personal project',
 			role: ['developer', 'designer'],
@@ -39,7 +42,7 @@
 			years: ['2023'],
 			skills: ['svelte', 'typescript', 'pnpm', 'vite', 'tailwindcss'],
 			image: portfolio_photos,
-			mobile_image: portfolio_home_page
+			mobileImg: portfolio_home_page
 		}
 	];
 </script>
@@ -104,7 +107,7 @@
 				</div>
 			</div>
 
-			<button class="flex items-center">
+			<a class="flex items-center" href="/work/{project.shortName}">
 				<p class="font-serif text-heading-3 text-accent">read more</p>
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
@@ -120,7 +123,7 @@
 						fill="#625035"
 					/>
 				</svg>
-			</button>
+			</a>
 		</div>
 		<div>
 			<img
@@ -129,7 +132,7 @@
 				class="hidden lg:flex md:object-cover md:w-[25rem] md:h-[100%] lg:w-[30rem] lg:h-[80%]"
 			/>
 			<img
-				src={project.mobile_image}
+				src={project.mobileImg}
 				alt=""
 				class="lg:hidden rounded-3xl shadow-default object-cover w-[25rem] h-[15rem] md:m-8"
 			/>

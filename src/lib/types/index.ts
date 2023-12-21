@@ -1,5 +1,6 @@
 type Project = {
 	title: string;
+	shortName: string;
 	github: string;
 	company: string;
 	role: string[];
@@ -7,7 +8,7 @@ type Project = {
 	years: string[];
 	skills: string[];
 	image: string;
-	mobile_image: string;
+	mobileImg: string;
 };
 
 type FooterLink = {
