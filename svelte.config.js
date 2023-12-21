@@ -8,7 +8,7 @@ import shiki from 'shiki';
 const mdsvexOptions = {
 	extensions: ['.md'],
 	highlight: {
-		highligher: async (code, lang = 'text') => {
+		highlighter: async (code, lang = 'text') => {
 			const highlighter = await shiki.getHighlighter({ theme: 'poimandres' });
 			const html = escapeSvelte(highlighter.codeToHtml(code, { lang }));
 			return `{@html \`${html}\` }`;
