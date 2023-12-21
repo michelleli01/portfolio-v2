@@ -1,6 +1,6 @@
-type Project = {
+export type Project = {
 	title: string;
-	shortName: string;
+	slug: string;
 	github: string;
 	company: string;
 	role: string[];
@@ -11,9 +11,15 @@ type Project = {
 	mobileImg: string;
 };
 
-type FooterLink = {
+export type FooterLink = {
 	route: string;
 	logo: string;
 };
 
-export { type Project, type FooterLink };
+export type Post = {
+	title: string;
+	slug: string;
+	description: string;
+	date: string;
+	published: boolean;
+};

@@ -1,6 +1,15 @@
-<section
-	class="h-screen font-sans text-general text-heading-3 flex flex-col items-center justify-center"
->
-	<p class="">This page is currently a work in progress 🚧</p>
-	<p>Come back soon!</p>
+<script>
+	export let data;
+</script>
+
+<section class="h-screen">
+	<ul class="posts">
+		{#each data.posts as post}
+			<li class="post">
+				<a href="/blog/{post.slug}" class="title">{post.title}</a>
+				<p class="date">{post.date}</p>
+				<p class="description">{post.description}</p>
+			</li>
+		{/each}
+	</ul>
 </section>

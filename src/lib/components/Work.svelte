@@ -10,7 +10,7 @@
 	let projects: Project[] = [
 		{
 			title: 'Azure Infrastructure Services',
-			shortName: 'microsoft',
+			slug: 'microsoft',
 			github: '',
 			company: 'microsoft',
 			role: ['software engineer intern'],
@@ -23,7 +23,7 @@
 		{
 			title: 'CU Reviews',
 			github: 'https://github.com/cornell-dti/course-reviews-react-2.0',
-			shortName: 'dti',
+			slug: 'dti',
 			company: 'cornell dti',
 			role: ['technical project manager', 'developer'],
 			desc: 'A course review website used by over 5000+ students monthly',
@@ -34,7 +34,7 @@
 		},
 		{
 			title: 'Portfolio',
-			shortName: 'portfolio',
+			slug: 'portfolio',
 			github: 'https://github.com/michelleli01/portfolio-v2',
 			company: 'personal project',
 			role: ['developer', 'designer'],
@@ -107,7 +107,7 @@
 				</div>
 			</div>
 
-			<a class="flex items-center" href="/work/{project.shortName}">
+			<a class="flex items-center" href="/work/{project.slug}">
 				<p class="font-serif text-heading-3 text-accent">read more</p>
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
