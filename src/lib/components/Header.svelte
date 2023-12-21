@@ -9,10 +9,10 @@
 	};
 </script>
 
-<header class="bg-gray p-8 md:flex items-center justify-between">
+<header class="bg-gray py-3 px-8 md:flex items-center justify-between">
 	<div class="flex items-center justify-between">
 		<a href="/"> <img src={logo} alt="michelle's logo" /> </a>
-		<button on:click={toggleMenu} class="sm:hidden">
+		<button on:click={toggleMenu} class="md:hidden">
 			<img src={hamburger} alt="hamburger menu" />
 		</button>
 	</div>
