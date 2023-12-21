@@ -2,6 +2,10 @@
 	import type { Project } from '$lib/types/index';
 	import avs_page from '$lib/assets/microsoft/avs_page.png';
 	import microsoft_photos from '$lib/assets/microsoft/microsoft_photos.png';
+	import cu_reviews_photos from '$lib/assets/cu reviews/cu_reviews_photos.png';
+	import cu_reviews_home_page from '$lib/assets/cu reviews/cu_reviews_home_page.png';
+	import portfolio_home_page from '$lib/assets/portfolio/portfolio_home_page.png';
+	import portfolio_photos from '$lib/assets/portfolio/portfolio_photos.png';
 
 	let projects: Project[] = [
 		{
@@ -23,8 +27,8 @@
 			desc: 'A course review website used by over 5000+ students monthly',
 			years: ['2021', '2022'],
 			skills: ['reactjs', 'typescript', 'express', 'jest', 'mongodb'],
-			image: '',
-			mobile_image: ''
+			image: cu_reviews_photos,
+			mobile_image: cu_reviews_home_page
 		},
 		{
 			title: 'Portfolio',
@@ -34,8 +38,8 @@
 			desc: "This website! Hope you're enjoying it so far :)",
 			years: ['2023'],
 			skills: ['svelte', 'typescript', 'pnpm', 'vite', 'tailwindcss'],
-			image: '',
-			mobile_image: ''
+			image: portfolio_photos,
+			mobile_image: portfolio_home_page
 		}
 	];
 </script>
@@ -99,7 +103,7 @@
 			</div>
 
 			<div class="flex items-center">
-				<div class="font-serif text-heading-3 text-accent">read more</div>
+				<button class="font-serif text-heading-3 text-accent">read more</button>
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
 					width="47"
@@ -120,12 +124,12 @@
 			<img
 				src={project.image}
 				alt=""
-				class="hidden md:flex md:object-cover md:w-[25rem] md:h-[25rem] lg:w-[30rem] lg:h-[30rem]"
+				class="hidden lg:flex md:object-cover md:w-[25rem] md:h-[100%] lg:w-[30rem] lg:h-[80%]"
 			/>
 			<img
 				src={project.mobile_image}
 				alt=""
-				class="md:hidden rounded-3xl shadow-default object-cover w-[25rem] h-[15rem] lg:w-[30rem] lg:h-[30rem]"
+				class="lg:hidden rounded-3xl shadow-default object-cover w-[25rem] h-[15rem] md:m-8"
 			/>
 		</div>
 	</section>
