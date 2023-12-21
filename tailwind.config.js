@@ -12,9 +12,9 @@ export default {
 			},
 			fontSize: {
 				title: ['clamp(3.125rem, 5vw, 7.5rem)'],
-				'heading-1': ['clamp(1.85rem, 1vw, 3.75rem)'],
-				'heading-2': ['clamp(2.4rem, 8vw, 10rem)'],
-				'heading-3': ['clamp(1.25rem, 1vw, 1.875rem)'],
+				'heading-1': ['clamp(1.85rem, 3vw, 3.75rem)'],
+				'heading-2': ['clamp(1.5rem, 2vw, 3em)'],
+				'heading-3': ['clamp(1.25rem, 1.5vw, 2.5rem)'],
 				'heading-4': '1.25rem',
 				body: '1rem'
 			},
@@ -34,5 +34,5 @@ export default {
 			}
 		}
 	},
-	plugins: []
+	plugins: [require('@tailwindcss/typography')]
 };

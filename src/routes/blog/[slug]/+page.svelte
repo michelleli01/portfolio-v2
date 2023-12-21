@@ -9,15 +9,15 @@
 	<meta property="og:title" content={data.meta.title} />
 </svelte:head>
 
-<article>
-	<!-- Title -->
+<article class="h-screen">
 	<hgroup>
-		<h1>{data.meta.title}</h1>
-		<p>Published at {data.meta.date}</p>
+		<h1 class="text-heading-1 font-serif text-primary">{data.meta.title}</h1>
+		<p class="text-sans text-body text-gray-2">Published at {data.meta.date}</p>
 	</hgroup>
 
-	<!-- Post -->
-	<div class="prose">
-		<svelte:component this={data.content} />
+	<div
+		class="pt-10 text-general prose-pre:bg-gray-2 prose prose-headings:font-serif prose-h2:text-heading-2 prose-h2:text-primary prose-h2:font-medium prose-h3:text-heading-3 prose-p:text-sans bg-gray"
+	>
+		<svelte:component this={data.content} class="" />
 	</div>
 </article>
