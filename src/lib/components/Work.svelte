@@ -1,5 +1,7 @@
 <script lang="ts">
 	import type { Project } from '$lib/types/index';
+	import avs_page from '$lib/assets/microsoft/avs_page.png';
+	import microsoft_photos from '$lib/assets/microsoft/microsoft_photos.png';
 
 	let projects: Project[] = [
 		{
@@ -9,7 +11,9 @@
 			role: ['software engineer intern'],
 			desc: 'Interned for two summers developing automation script for validating resource deployment on AVS servers and integrating in-house service into live product.',
 			years: ['2022', '2023'],
-			skills: ['c#', 'f#', 'docker', 'azure', 'ci/cd pipline', 'agile workflow']
+			skills: ['c#', 'f#', 'docker', 'azure', 'ci/cd pipline', 'agile workflow'],
+			image: microsoft_photos,
+			mobile_image: avs_page
 		},
 		{
 			title: 'CU Reviews',
@@ -18,7 +22,9 @@
 			role: ['technical project manager', 'developer'],
 			desc: 'A course review website used by over 5000+ students monthly',
 			years: ['2021', '2022'],
-			skills: ['reactjs', 'typescript', 'express', 'jest', 'mongodb']
+			skills: ['reactjs', 'typescript', 'express', 'jest', 'mongodb'],
+			image: '',
+			mobile_image: ''
 		},
 		{
 			title: 'Portfolio',
@@ -27,14 +33,18 @@
 			role: ['developer', 'designer'],
 			desc: "This website! Hope you're enjoying it so far :)",
 			years: ['2023'],
-			skills: ['svelte', 'typescript', 'pnpm', 'vite', 'tailwindcss']
+			skills: ['svelte', 'typescript', 'pnpm', 'vite', 'tailwindcss'],
+			image: '',
+			mobile_image: ''
 		}
 	];
 </script>
 
 {#each projects as project}
-	<section class="h-screen flex flex-col justify-center">
-		<div class="flex flex-col justify-center gap-4 items-start">
+	<section
+		class="h-screen flex flex-col lg:flex-row items-center justify-center gap-4 lg:gap-0 lg:justify-between"
+	>
+		<div class="flex flex-col justify-center gap-4 items-start w-[25rem] md:w-[36rem]">
 			<div class="flex items-start gap-4">
 				<p class="font-serif font-bold text-heading-1 text-primary tracking-wide">
 					{project.title}
@@ -105,6 +115,18 @@
 					/>
 				</svg>
 			</div>
+		</div>
+		<div>
+			<img
+				src={project.image}
+				alt=""
+				class="hidden md:flex md:object-cover md:w-[25rem] md:h-[25rem] lg:w-[30rem] lg:h-[30rem]"
+			/>
+			<img
+				src={project.mobile_image}
+				alt=""
+				class="md:hidden rounded-3xl shadow-default object-cover w-[25rem] h-[15rem] lg:w-[30rem] lg:h-[30rem]"
+			/>
 		</div>
 	</section>
 {/each}
