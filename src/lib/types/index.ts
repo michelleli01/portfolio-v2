@@ -10,4 +10,9 @@ type Project = {
 	mobile_image: string;
 };
 
-export { type Project };
+type FooterLink = {
+	route: string;
+	logo: string;
+};
+
+export { type Project, type FooterLink };
