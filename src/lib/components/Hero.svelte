@@ -30,7 +30,7 @@
 			</div>
 		</div>
 		<!-- mt-36 md:mt-16 lg:mt-12 pb-6 -->
-		<div class="flex flex-col justify-center items-center p-8 text-heading-4 tracking-widest">
+		<div class="flex flex-col justify-center items-center py-16 text-heading-4 tracking-widest">
 			<p>scroll for more</p>
 			<img src={arrow_down} alt="down arrow" />
 		</div>
