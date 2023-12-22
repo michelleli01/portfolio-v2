@@ -3,6 +3,10 @@
 	import Work from '$lib/components/Work.svelte';
 </script>
 
+<svelte:head>
+	<title>michelle li</title>
+</svelte:head>
+
 <Hero />
 <div id="work">
 	<Work />

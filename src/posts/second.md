@@ -2,7 +2,7 @@
 title: Photography in 2024
 description: Some photos I took throughout the year.
 date: '2024-01-01'
-published: true
+published: false
 ---
 
 Hey friends! 👋

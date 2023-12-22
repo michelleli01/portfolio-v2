@@ -6,6 +6,7 @@
 	import cu_reviews_home_page from '$lib/assets/cu reviews/cu_reviews_home_page.png';
 	import portfolio_home_page from '$lib/assets/portfolio/portfolio_home_page.png';
 	import portfolio_photos from '$lib/assets/portfolio/portfolio_photos.png';
+	import arrow_right from '$lib/assets/icons/arrow_right.svg';
 
 	let projects: Project[] = [
 		{
@@ -109,20 +110,7 @@
 
 			<a class="flex items-center" href="/work/{project.slug}">
 				<p class="font-serif text-heading-3 text-accent">read more</p>
-				<svg
-					xmlns="http://www.w3.org/2000/svg"
-					width="47"
-					height="39"
-					viewBox="0 0 47 39"
-					fill="none"
-				>
-					<path
-						fill-rule="evenodd"
-						clip-rule="evenodd"
-						d="M26.3789 9.16076C26.6543 8.93838 27.0276 8.81348 27.4168 8.81348C27.8061 8.81348 28.1794 8.93838 28.4547 9.16076L40.2048 18.6608C40.4798 18.8834 40.6343 19.1852 40.6343 19.4999C40.6343 19.8146 40.4798 20.1164 40.2048 20.3391L28.4547 29.8391C28.3203 29.9558 28.1581 30.0493 27.978 30.1143C27.7978 30.1792 27.6033 30.2141 27.4061 30.2169C27.2089 30.2197 27.013 30.1904 26.8301 30.1306C26.6472 30.0709 26.4811 29.982 26.3416 29.8692C26.2022 29.7565 26.0922 29.6222 26.0183 29.4743C25.9445 29.3264 25.9082 29.1681 25.9117 29.0086C25.9152 28.8492 25.9583 28.6919 26.0386 28.5462C26.1189 28.4006 26.2346 28.2695 26.3789 28.1608L35.6222 20.6874H7.8335C7.44396 20.6874 7.07038 20.5623 6.79493 20.3396C6.51949 20.1169 6.36475 19.8149 6.36475 19.4999C6.36475 19.185 6.51949 18.8829 6.79493 18.6602C7.07038 18.4375 7.44396 18.3124 7.8335 18.3124H35.6222L26.3789 10.8391C26.1039 10.6164 25.9494 10.3146 25.9494 9.99993C25.9494 9.68524 26.1039 9.38342 26.3789 9.16076Z"
-						fill="#625035"
-					/>
-				</svg>
+				<img src={arrow_right} alt="right arrow" />
 			</a>
 		</div>
 		<div>
