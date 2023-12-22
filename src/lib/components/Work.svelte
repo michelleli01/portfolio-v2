@@ -6,6 +6,8 @@
 	import cu_reviews_home_page from '$lib/assets/cu reviews/cu_reviews_home_page.png';
 	import portfolio_home_page from '$lib/assets/portfolio/portfolio_home_page.png';
 	import portfolio_photos from '$lib/assets/portfolio/portfolio_photos.png';
+	import htrack_photos from '$lib/assets/htrack/htrack_photos.png';
+	import homepage from '$lib/assets/htrack/homepage.gif';
 	import arrow_right from '$lib/assets/icons/arrow_right.svg';
 
 	let projects: Project[] = [
@@ -44,6 +46,18 @@
 			skills: ['svelte', 'typescript', 'pnpm', 'vite', 'tailwindcss'],
 			image: portfolio_photos,
 			mobileImg: portfolio_home_page
+		},
+		{
+			title: 'HTrack',
+			github: 'https://github.com/michelleli01/htrack',
+			slug: 'htrack',
+			company: 'personal project',
+			role: ['developer', 'designer'],
+			desc: 'A habit tracking website with a built in to do list that allows users to build more productive and fulfilling lifestyles.',
+			years: ['2021'],
+			skills: ['reactjs', 'javascript', 'html', 'css', 'firebase', 'express'],
+			image: htrack_photos,
+			mobileImg: homepage
 		}
 	];
 </script>
