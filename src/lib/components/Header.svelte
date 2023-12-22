@@ -19,21 +19,34 @@
 
 	<nav>
 		<ul
-			class="text-heading-3 text-general font-serif gap-4 flex-col items-center gap-[1rem] {showMenu
+			class="text-heading-3 text-general font-serif gap-4 flex-col items-center {showMenu
 				? 'flex'
 				: 'hidden'} md:flex md:flex-row md:gap-8"
 		>
 			<li>
-				<a href="/blog">blog</a>
-			</li>
-			<li>
-				<a href="/#work">work</a>
-			</li>
-			<li>
-				<a href="/about">about</a>
+				<a
+					href="/blog"
+					class="transition duration-150 ease-in-out no-underline hover:underline hover:text-gray-2"
+					>blog</a
+				>
 			</li>
 			<li>
 				<a
+					href="/#work"
+					class="transition duration-150 ease-in-out no-underline hover:underline hover:text-gray-2"
+					>work</a
+				>
+			</li>
+			<li>
+				<a
+					href="/about"
+					class="transition duration-150 ease-in-out no-underline hover:underline hover:text-gray-2"
+					>about</a
+				>
+			</li>
+			<li>
+				<a
+					class="transition duration-150 ease-in-out no-underline hover:underline hover:text-gray-2"
 					target="_blank"
 					href="https://drive.google.com/file/d/1qbOu9RK86xYTpTR5VBESJH1afOY4CJfc/view?usp=sharing"
 					>resume</a
