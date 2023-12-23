@@ -103,7 +103,7 @@
 						{/if}{' '}
 					{/each}
 				</div>
-				<p class="font-sans text-general">
+				<p class="font-sans text-general text-body">
 					{project.desc}
 				</p>
 				<div class="font-sans text-general flex items-center gap-2 self-stretch">

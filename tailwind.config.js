@@ -14,9 +14,9 @@ export default {
 				title: ['clamp(3.125rem, 5vw, 7.5rem)'],
 				'heading-1': ['clamp(1.85rem, 3vw, 3.75rem)'],
 				'heading-2': ['clamp(1.5rem, 2vw, 3em)'],
-				'heading-3': ['clamp(1.25rem, 1.5vw, 2.5rem)'],
-				'heading-4': '1.25rem',
-				body: '1rem'
+				'heading-3': ['clamp(1.3rem, 1.5vw, 2.5rem)'],
+				'heading-4': '1.3rem',
+				body: '1.05rem'
 			},
 			colors: {
 				transparent: 'transparent',

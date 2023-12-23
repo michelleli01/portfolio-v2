@@ -7,7 +7,7 @@
 	<title>blog | michelle li</title>
 </svelte:head>
 
-<section class="h-screen">
+<section class="min-h-screen w-[75ch] mx-auto">
 	<ul class="posts">
 		{#each data.posts as post}
 			<a href="/blog/{post.slug}">

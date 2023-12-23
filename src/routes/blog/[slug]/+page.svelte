@@ -15,7 +15,7 @@
 	</div>
 
 	<div
-		class="mx-auto pb-10 text-general prose-pre:bg-gray-2 prose prose-headings:font-sans prose-p:font-sans prose-p:text-body prose-h2:font-semibold prose-h3:font-medium prose-h3:text-heading-3"
+		class="mx-auto font-sans pb-10 text-general prose-pre:bg-gray-2 prose prose-p:text-[1.05rem] prose-h2:font-semibold prose-h3:font-semibold prose-h3:text-heading-3"
 	>
 		<svelte:component this={data.content} />
 	</div>
