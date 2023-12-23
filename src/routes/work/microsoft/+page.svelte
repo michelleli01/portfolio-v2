@@ -5,7 +5,7 @@
 	<title>microsoft | michelle li</title>
 </svelte:head>
 
-<section class="w-[75ch] mx-auto py-10 divide-y-4 divide-secondary divide-opacity-60">
+<section class="w-[65ch] mx-auto py-10 divide-y-4 divide-secondary divide-opacity-60">
 	<div class="flex flex-col md:flex-row justify-between items-center gap-12 pb-8 md:pb-20">
 		<div>
 			<div class="flex flex-col justify-center items-center">
