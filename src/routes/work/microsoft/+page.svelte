@@ -99,7 +99,7 @@
 						</div>
 						<div>
 							Again, it was a pleasure to have this opportunity and I'm incredibly grateful for
-							everyone on the AVS team! I enjoyed my time so much a Microsoft, I decided to return
+							everyone on the AVS team! I enjoyed my time so much at Microsoft, I decided to return
 							full time as a software engineer in New York City starting Feburary 2024.
 						</div>
 					</div>
