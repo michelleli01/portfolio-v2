@@ -9,6 +9,7 @@ export type Project = {
 	skills: string[];
 	image: string;
 	mobileImg: string;
+	readMore: boolean;
 };
 
 export type FooterLink = {

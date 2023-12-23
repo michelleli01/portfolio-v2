@@ -21,7 +21,8 @@
 			years: ['2022', '2023'],
 			skills: ['c#', 'f#', 'docker', 'azure', 'ci/cd pipline', 'agile workflow'],
 			image: microsoft_photos,
-			mobileImg: avs_page
+			mobileImg: avs_page,
+			readMore: true
 		},
 		{
 			title: 'CU Reviews',
@@ -33,7 +34,8 @@
 			years: ['2021', '2022'],
 			skills: ['reactjs', 'typescript', 'express', 'jest', 'mongodb'],
 			image: cu_reviews_photos,
-			mobileImg: cu_reviews_home_page
+			mobileImg: cu_reviews_home_page,
+			readMore: true
 		},
 		{
 			title: 'Portfolio',
@@ -45,7 +47,8 @@
 			years: ['2023'],
 			skills: ['svelte', 'typescript', 'pnpm', 'vite', 'tailwindcss'],
 			image: portfolio_photos,
-			mobileImg: portfolio_home_page
+			mobileImg: portfolio_home_page,
+			readMore: false
 		},
 		{
 			title: 'HTrack',
@@ -57,7 +60,8 @@
 			years: ['2021'],
 			skills: ['reactjs', 'javascript', 'html', 'css', 'firebase', 'express'],
 			image: htrack_photos,
-			mobileImg: homepage
+			mobileImg: homepage,
+			readMore: false
 		}
 	];
 </script>
@@ -123,10 +127,12 @@
 					</div>
 				</div>
 
-				<a class="flex items-center" href="/work/{project.slug}">
-					<p class="font-serif text-heading-3 text-accent">read more</p>
-					<img src={arrow_right} alt="right arrow" />
-				</a>
+				{#if project.readMore}
+					<a class="flex items-center" href="/work/{project.slug}">
+						<p class="font-serif text-heading-3 text-accent">read more</p>
+						<img src={arrow_right} alt="right arrow" />
+					</a>
+				{/if}
 			</div>
 			<div>
 				<img
