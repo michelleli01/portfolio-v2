@@ -59,12 +59,12 @@
 					<a href="https://portal.azure.com/#home" class="text-gray-2 font-semibold underline"
 						>Microsoft</a
 					>
-					on the Azure Infrastructure Services team for two summers and worked at
+					on the Azure Infrastructure Services team for two summers and worked at a startup,
 					<a
 						href="https://www.aeyesafe.com/"
 						target="_blank"
 						class="text-gray-2 font-semibold underline">Aeyesafe</a
-					> as a backend engineer for a summer.
+					>, as a backend engineer for one summer.
 				</p>
 				<br />
 			</div>
