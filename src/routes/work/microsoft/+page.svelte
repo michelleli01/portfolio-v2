@@ -54,18 +54,20 @@
 							<h3 class="font-semibold text-heading-3">Summer 2023</h3>
 							I returned again to Microsoft during summer 2023, after my junior year, and as a returning
 							intern to the same team, the complexity and scope of the my project increased.
-							<ul class="list-decimal list-inside">
+							<!-- <ul class="list-decimal list-inside">
 								<li>Onboard onto the Infrastructures team</li>
 								<li>
 									Develop an automation script that validates a list of criteria for resource
 									deployment to Azure VmWare Solution (AVS) servers
 								</li>
-							</ul>
+							</ul> -->
 						</div>
 
 						<div class="flex flex-col gap-2">
+							<h3 class="font-semibold text-heading-3">Learnings</h3>
+
 							<div>
-								Here are some of my learning from this this entire experience:
+								Here are some of takeways I gained from this this entire experience:
 								<ul class="list-decimal list-outside pl-5">
 									<li>
 										<p class="font-semibold">
