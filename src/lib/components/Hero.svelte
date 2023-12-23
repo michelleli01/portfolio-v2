@@ -20,8 +20,8 @@
 					<p class="text-primary">developer</p>
 				</div>
 				<div class="flex gap-2">
-					<p>forever</p>
-					<p class="text-primary">student</p>
+					<p>backend</p>
+					<p class="text-primary">engineer</p>
 				</div>
 			</div>
 			<div class="flex gap-2 mx-auto md:mx-0">
