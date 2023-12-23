@@ -2,9 +2,9 @@
 	import arrow_down from '$lib/assets/icons/arrow_down.svg';
 </script>
 
-<!-- mt-32 md:mt-28 lg:mt-10 -->
-<section class="flex w-full h-screen items-center justify-center font-serif text-general flex-wrap">
-	<!-- mb-20 md:mb-36 lg:mb-40 -->
+<section
+	class="flex w-full h-screen pt-16 lg:pt-0 lg:items-center justify-center font-serif text-general flex-wrap"
+>
 	<div class="w-full">
 		<h1 class="text-title font-semibold">
 			Hey, my name is <div class="text-primary">Michelle</div>
@@ -14,7 +14,7 @@
 
 	<div class="flex flex-col w-screen">
 		<div class="font-medium text-heading-3 tracking-widest flex justify-between items-center">
-			<div class="flex flex-col items-start text-center hidden md:flex">
+			<div class="hidden flex-col items-start text-center md:flex">
 				<div class="flex gap-2">
 					<p>web</p>
 					<p class="text-primary">developer</p>
@@ -29,7 +29,6 @@
 				<p class="text-primary">new york city</p>
 			</div>
 		</div>
-		<!-- mt-36 md:mt-16 lg:mt-12 pb-6 -->
 		<div class="flex flex-col justify-center items-center py-16 text-heading-4 tracking-widest">
 			<p>scroll for more</p>
 			<img src={arrow_down} alt="down arrow" />

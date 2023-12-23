@@ -17,34 +17,34 @@
 		</button>
 	</div>
 
-	<nav>
+	<nav class="">
 		<ul
-			class="text-heading-3 text-general font-serif gap-4 flex-col items-center {showMenu
+			class="divide-y-4 divide-secondary divide-opacity-60 md:divide-y-0 py-4 text-heading-3 text-general font-serif gap-4 flex-col items-center {showMenu
 				? 'flex'
-				: 'hidden'} md:flex md:flex-row md:gap-8"
+				: 'hidden'} md:bg-gray md:p-0 md:flex md:flex-row md:gap-8"
 		>
-			<li>
+			<li class="w-[100%] flex justify-center items-center">
 				<a
 					href="/blog"
-					class="transition duration-150 ease-in-out no-underline hover:underline hover:text-gray-2"
+					class=" transition duration-150 ease-in-out no-underline hover:underline hover:text-gray-2"
 					>blog</a
 				>
 			</li>
-			<li>
+			<li class="w-[100%] flex justify-center items-center">
 				<a
 					href="/#work"
 					class="transition duration-150 ease-in-out no-underline hover:underline hover:text-gray-2"
 					>work</a
 				>
 			</li>
-			<li>
+			<li class="w-[100%] flex justify-center items-center">
 				<a
 					href="/about"
 					class="transition duration-150 ease-in-out no-underline hover:underline hover:text-gray-2"
 					>about</a
 				>
 			</li>
-			<li>
+			<li class="w-[100%] flex justify-center items-center">
 				<a
 					class="transition duration-150 ease-in-out no-underline hover:underline hover:text-gray-2"
 					target="_blank"
