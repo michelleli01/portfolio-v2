@@ -46,7 +46,7 @@
 				<p>
 					I specialize in backend engineering and web development, and love learning about anything
 					tech related really! I've been coding for around 8 years and have been playing around with
-					cool new web development frameworks for around 3 years.
+					web development for around 3 years.
 				</p>
 				<br />
 				<p>
@@ -86,6 +86,7 @@
 				<li>looking up new restaurants to try 😋</li>
 				<li>listening to music 🎧</li>
 				<li>making matcha 🍵</li>
+				<li>playing around with some new tech stack/framework 📚</li>
 				<div class="font-semibold">or...</div>
 				<li>googling how to center a div for the 100th time 👩‍💻</li>
 			</ul>
