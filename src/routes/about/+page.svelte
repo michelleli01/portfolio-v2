@@ -40,7 +40,7 @@
 						target="_blank"
 						href="https://portal.azure.com/#home"
 						class="text-gray-2 font-semibold underline">Software Engineer at Microsoft</a
-					> on the Azure Infrastructure Services team living in New York City.
+					> on the Azure VmWare Solutions team living in New York City.
 				</p>
 				<br />
 				<p>
@@ -59,7 +59,7 @@
 					<a href="https://portal.azure.com/#home" class="text-gray-2 font-semibold underline"
 						>Microsoft</a
 					>
-					on the Azure Infrastructure Services team for two summers and worked at a startup,
+					on the Azure VmWare Solutions team for two summers and worked at a startup,
 					<a
 						href="https://www.aeyesafe.com/"
 						target="_blank"

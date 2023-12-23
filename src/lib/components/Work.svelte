@@ -12,7 +12,7 @@
 
 	let projects: Project[] = [
 		{
-			title: 'Azure Infrastructure Services',
+			title: 'Azure VmWare Solutions',
 			slug: 'microsoft',
 			github: '',
 			company: 'microsoft',
