@@ -69,7 +69,7 @@
 <div class="divide-y-4 divide-secondary divide-opacity-60">
 	{#each projects as project}
 		<section
-			class="pb-28 pt-20 w-[95%] mx-auto flex flex-col lg:flex-row items-center justify-center gap-4 lg:gap-0 lg:justify-between"
+			class="snap-center pb-28 pt-20 w-[95%] mx-auto flex flex-col lg:flex-row items-center justify-center gap-4 lg:gap-0 lg:justify-between"
 		>
 			<div class="flex flex-col justify-center gap-4 items-start md:w-[36rem]">
 				<div class="flex items-start gap-4">

@@ -8,6 +8,6 @@
 </svelte:head>
 
 <Hero />
-<div id="work">
+<div id="work" class="snap-y snap-mandatory">
 	<Work />
 </div>
