@@ -2,7 +2,7 @@
 title: 'Growing to Tolerate Frontend Development'
 description: 'Revisiting frontend development after 4 years.'
 date: '2023-12-23'
-published: true
+published: false
 ---
 
 I think I've always gravitated towards backend development because of how tedious and unnecessarily complex frontend development was with [React.js](https://react.dev/) and [Bootstrap](https://getbootstrap.com/) when I first started out 4 years ago. Because of this initial hurdle, I opted to label myself as a _"backend developer"_ very early on and never really touched frontend development again.
